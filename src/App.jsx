@@ -1,8 +1,13 @@
+
 import './App.css';
+import Navigation from './Components/navbar';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
